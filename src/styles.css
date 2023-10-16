@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  border: 1px solid gray;    
+  margin: 10px;
+  margin-left: auto;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  line-height: 45px; 
+  border: 1px solid gray;
+  margin: 50px;
+  width: 60vh;
+
+#form > div {  
+  width: 75%;
+  margin: 10px;  
+  line-height: 35px;
+  font-size: 20px;
+}
